@@ -1,0 +1,3 @@
+For Windows:
+netstat -ano | findstr :8080 (the port number)
+taskkill /F /PID 12017(or whatever the process ID is)
